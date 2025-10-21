@@ -2,14 +2,24 @@
 This is a project where I will be building the pipelines of RAG.
 Steps include:
 1. Data ingestion pipeline
-        a. Data ingestion
-        b. Data parsing
-        c. Embedding
-2. User Query
-3. Vectore store ---> Retrevier
-4. Retreval Pipeline
-        a. LLM
-        b. output generation
+
+   a. Data ingestion
+
+   b. Data parsing
+
+   c. Embedding
+
+3. User Query
+
+4. Vectore store ---> Retrevier
+
+5. Retreval Pipeline
+ 
+   a. LLM
+
+   b. output generation
+
+# Overview
 
 A simple implementation of Retrieval-Augmented Generation (RAG) built from scratch using LangChain, Groq API, and FAISS.
 This project loads PDF documents, splits them into chunks, stores them in a vector database, and enables question-answering over your own data.
